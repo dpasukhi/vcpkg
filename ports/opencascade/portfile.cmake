@@ -42,6 +42,10 @@ vcpkg_cmake_configure(
         -DINSTALL_DIR_DOC=share/trash
         -DINSTALL_DIR_SCRIPT=share/trash # not relocatable
         -DINSTALL_TEST_CASES=OFF
+        -DUSE_DRACO=OFF
+        -DUSE_EIGEN=OFF
+        -DUSE_FFMPEG=OFF
+        -DUSE_OPENVR=OFF
         -DUSE_TK=OFF
 )
 
